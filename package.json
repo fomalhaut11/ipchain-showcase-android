@@ -1,0 +1,21 @@
+{
+  "name": "ipchain-culture-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IPChain —— 数字文化资产与 IP 行业动态展示 App（无钱包、无链上交互、无交易）",
+  "scripts": {
+    "build:web": "npm --prefix web run build",
+    "sync": "npm run build:web && cap sync android",
+    "open": "cap open android",
+    "assets": "capacitor-assets generate --android --iconBackgroundColor #050510 --iconBackgroundColorDark #050510 --splashBackgroundColor #050510 --splashBackgroundColorDark #050510",
+    "rebuild": "npm run build:web && cap sync android && npm run assets"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "8.5.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/core": "8.5.2"
+  }
+}

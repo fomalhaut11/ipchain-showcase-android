@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IPChain</string>
+    <string name="title_activity_main">IPChain</string>
+    <string name="package_name">com.xiaoqin.ipchain</string>
+    <string name="custom_url_scheme">com.xiaoqin.ipchain</string>
+</resources>

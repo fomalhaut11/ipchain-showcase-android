@@ -1,0 +1,23 @@
+{
+  "name": "ipchain-showcase-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "数字文化资产与 IP 行业动态展示 —— 独立极简前端（无钱包、无链上交互、无交易）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.xiaoqin.ipchain",
+  "appName": "IPChain",
+  "webDir": "web/dist",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

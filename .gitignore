@@ -1,0 +1,35 @@
+# Dependencies and generated output
+node_modules/
+web/dist/
+*.tsbuildinfo
+.gradle/
+build/
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/
+android/app/src/main/res/xml/config.xml
+
+# Local settings and signing credentials
+.env
+.env.*
+!.env.example
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+google-services.json
+.npmrc
+
+# Packaged artifacts and temporary files
+*.apk
+*.aab
+*.aar
+*.rar
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
